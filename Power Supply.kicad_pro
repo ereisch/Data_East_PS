@@ -400,7 +400,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -493,6 +493,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/+12VU": "LV_HC",
+      "/-12VU": "LV_HC",
+      "/5V_Supply/+5V": "LV_HC",
       "/High Voltage Supplies/+68VDC": "HV_Power",
       "/High Voltage Supplies/-110VDC": "HV_Power",
       "/High Voltage Supplies/-98VDC": "HV_Power",
@@ -503,6 +506,7 @@
       "/High Voltage/100VAC": "HV_Power",
       "/High Voltage/90VAC": "HV_Power",
       "/High Voltage/HV_COM": "HV_Power",
+      "GND": "LV_HC",
       "Net-(D10-A)": "HV_Power",
       "Net-(D10-K)": "HV_Power",
       "Net-(D5-K)": "HV_Power",
@@ -511,6 +515,11 @@
       "Net-(D7-A)": "HV_Power",
       "Net-(D8-K)": "HV_Power",
       "Net-(D9-K)": "HV_Power",
+      "Net-(DB1-Pad2)": "LV_HC",
+      "Net-(DB1-Pad3)": "LV_HC",
+      "Net-(J1-Pin_10)": "LV_HC",
+      "Net-(J1-Pin_11)": "LV_HC",
+      "Net-(Q1-S)": "LV_HC",
       "Net-(TR1-E)": "HV_Power",
       "Net-(TR2-E)": "HV_Power",
       "Net-(TR6-B)": "HV_Power",
@@ -639,6 +648,14 @@
     [
       "bf5cd976-bdd1-4e41-9b4f-c77b24af249c",
       "High Voltage Supplies"
+    ],
+    [
+      "4aa88d8f-41e0-4d52-9c6a-7e1d1ad973c9",
+      "5V_Supply"
+    ],
+    [
+      "aad823f2-4a3f-4ce9-a054-da0c60fd4d48",
+      "12V Supplies"
     ]
   ],
   "text_variables": {}
