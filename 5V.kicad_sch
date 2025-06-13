@@ -2132,7 +2132,7 @@
 			)
 		)
 	)
-	(hierarchical_label "+12V"
+	(hierarchical_label "+12VU"
 		(shape input)
 		(at 41.275 62.23 180)
 		(fields_autoplaced yes)
@@ -3212,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mounts:Eaton_Can_Inductor"
 			(at 190.5 73.66 0)
 			(effects
 				(font
@@ -3334,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ae04eb-32f2-4b2b-99ca-e21f7e819acd")
-		(property "Reference" "C14"
+		(property "Reference" "C25"
 			(at 226.06 82.9309 0)
 			(effects
 				(font
@@ -3388,7 +3388,7 @@
 		(instances
 			(project ""
 				(path "/f4ba3c77-c7ad-4180-a527-3c94561b6977/4aa88d8f-41e0-4d52-9c6a-7e1d1ad973c9"
-					(reference "C14")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c999d1d0-c65f-4ea6-a5c1-847207d9402c")
-		(property "Reference" "C9"
+		(property "Reference" "C21"
 			(at 199.39 83.82 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 		(instances
 			(project "Power Supply"
 				(path "/f4ba3c77-c7ad-4180-a527-3c94561b6977/4aa88d8f-41e0-4d52-9c6a-7e1d1ad973c9"
-					(reference "C9")
+					(reference "C21")
 					(unit 1)
 				)
 			)
