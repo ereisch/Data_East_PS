@@ -179,8 +179,12 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        0.5,
+        1.0,
         2.0,
-        3.0
+        3.0,
+        3.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -212,6 +216,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.5
         },
         {
           "diameter": 3.0,
@@ -481,12 +497,12 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HV_Power",
+        "name": "0.2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 1.0,
+        "schematic_color": "rgb(255, 0, 192)",
+        "track_width": 3.5,
         "via_diameter": 2.0,
-        "via_drill": 0.3,
+        "via_drill": 1.0,
         "wire_width": 6
       },
       {
@@ -498,12 +514,29 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "LV_HC",
+        "name": "HV_Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 192)",
-        "track_width": 5.0,
-        "via_diameter": 2.0,
-        "via_drill": 1.0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LV_LC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 192, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -513,10 +546,19 @@
     "net_colors": null,
     "netclass_assignments": {
       "/+12VU": "LV_HC",
+      "/+18V": "LV_HC",
+      "/+18V_F": "LV_HC",
+      "/+32VA": "LV_HC",
+      "/+32VA_F": "LV_HC",
+      "/+32VB": "LV_HC",
+      "/+32VB_F": "LV_HC",
+      "/+5V_F": "LV_HC",
       "/-12VU": "LV_HC",
       "/12V Supplies/+12V_REG": "LV_HC",
-      "/12V Supplies/-12V_REG": "LV_HC",
+      "/12V Supplies/-12V_REG": "LV_LC",
       "/5V_Supply/+5V": "LV_HC",
+      "/9VAC_1": "LV_HC",
+      "/9VAC_2": "LV_HC",
       "/High Voltage Supplies/+68VDC": "HV_Power",
       "/High Voltage Supplies/-110VDC": "HV_Power",
       "/High Voltage Supplies/-98VDC": "HV_Power",
@@ -538,10 +580,16 @@
       "Net-(CN3-Pin_6)": "LV_HC",
       "Net-(CN4-Pin_5)": "LV_HC",
       "Net-(CN5-Pin_6)": "LV_HC",
+      "Net-(CN7-Pin_4)": "LV_HC",
+      "Net-(CN7-Pin_5)": "LV_HC",
+      "Net-(CN8-Pin_1)": "LV_HC",
+      "Net-(CN8-Pin_6)": "LV_HC",
+      "Net-(CN9-Pin_1)": "LV_HC",
       "Net-(D1-K)": "LV_HC",
       "Net-(D10-A)": "HV_Power",
       "Net-(D10-K)": "HV_Power",
       "Net-(D13-K)": "LV_HC",
+      "Net-(D14-K)": "LV_HC",
       "Net-(D4-K)": "LV_HC",
       "Net-(D5-K)": "HV_Power",
       "Net-(D6-A)": "HV_Power",

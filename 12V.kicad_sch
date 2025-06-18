@@ -462,7 +462,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q?"
+			(property "Reference" "Q3"
 				(at 6.35 1.2701 0)
 				(effects
 					(font
@@ -758,60 +758,6 @@
 				)
 				(pin passive line
 					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -820,7 +766,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2714,6 +2660,50 @@
 		)
 		(uuid "fffa885b-ebca-4150-9ce6-1be62c9c295d")
 	)
+	(label "+12V_REG"
+		(at 251.46 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b446f9db-1928-423b-9cbc-3db9aa3d56bb")
+		(property "Netclass" "LV_HC"
+			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "-12V_REG"
+		(at 137.16 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb34e0d8-832e-401d-ba30-8ecedc04e458")
+		(property "Netclass" "LV_LC"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "-12VU"
 		(shape input)
 		(at 59.69 128.27 180)
@@ -4486,15 +4476,6 @@
 		)
 		(pin "5"
 			(uuid "ee9828d1-2b20-4d90-aff1-46d4fb475bf4")
-		)
-		(pin "8"
-			(uuid "491cebd0-78ed-4804-bace-56de3fb21388")
-		)
-		(pin "7"
-			(uuid "fd9505de-850d-405f-bd3c-6fb340b5fca0")
-		)
-		(pin "6"
-			(uuid "5dd34d15-3d40-49df-8b63-c10ae9de6f3f")
 		)
 		(pin "4"
 			(uuid "167f1046-b685-4517-80bb-c8aad7c4ae73")

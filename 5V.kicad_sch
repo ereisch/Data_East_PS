@@ -2109,19 +2109,18 @@
 		)
 		(uuid "eab80dd8-5407-4d9c-b231-8200d5d749e3")
 	)
-	(hierarchical_label "+5V"
-		(shape output)
-		(at 229.87 73.66 0)
+	(label "+5V"
+		(at 212.725 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "10c0a249-2601-406f-8afd-83da7dec747d")
+		(uuid "6cb389e9-ad98-49c8-b303-0753bc0b590e")
 		(property "Netclass" "LV_HC"
-			(at 229.87 74.93 0)
+			(at 212.725 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,6 +2130,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 229.87 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10c0a249-2601-406f-8afd-83da7dec747d")
 	)
 	(hierarchical_label "+12VU"
 		(shape input)
@@ -2271,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 108.585 77.978 90)
 			(effects
 				(font
@@ -2408,7 +2418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 153.035 80.518 90)
 			(effects
 				(font
