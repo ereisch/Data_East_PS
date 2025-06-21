@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Designator" "Cin"
+		(property "Designator" "Cout"
 			(at 140.97 132.715 0)
 			(effects
 				(font

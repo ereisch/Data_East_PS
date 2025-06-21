@@ -2916,30 +2916,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 154.305 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f77689e-9278-42c7-be3c-094f6a8c62b5")
-		(property "Netclass" "HV_Power"
-			(at 155.0035 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 182.88 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2957,78 +2933,6 @@
 					(italic yes)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 130.175 81.915 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f22256c-a39d-4fcd-9b8a-ceb6cbf4ca72")
-		(property "Netclass" "HV_Power"
-			(at 129.4765 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 140.335 74.93 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33749f53-995d-4c2a-8a4d-14035e23908e")
-		(property "Netclass" "HV_Power"
-			(at 137.795 74.2315 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 159.385 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "34cd47ef-2c94-4bbd-8a39-ff1fa62bbf36")
-		(property "Netclass" "HV_Power"
-			(at 161.925 86.9315 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3084,30 +2988,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 130.175 112.395 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "584bbf79-bf84-4caf-bacf-b8535f20d8d0")
-		(property "Netclass" "HV_Power"
-			(at 129.4765 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 93.98 66.675 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3143,30 +3023,6 @@
 		(uuid "f87bb4d3-2f6d-4a21-bacb-cef24166e1f9")
 		(property "Netclass" "HV_Power"
 			(at 116.9035 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 140.335 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fef0d3ea-b0c3-4963-a2b9-24b3dac02945")
-		(property "Netclass" "HV_Power"
-			(at 137.795 118.6815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
