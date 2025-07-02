@@ -1,6 +1,8 @@
 # Data_East_PS
 Data East pinball power supply board, replacement for 520-5047-02
 
+![Board Preview](Data_East_PS.png "Board")
+
 ## Rationale
 
 A short while ago, I became frustrated with the replacement power supply options available for Data East pinball machines. The factory original ones had several key deficiencies as I saw them:

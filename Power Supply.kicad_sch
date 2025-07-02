@@ -9370,7 +9370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm"
 			(at 124.1552 30.48 0)
 			(effects
 				(font
@@ -10965,7 +10965,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5eb9e33a-d013-4db5-8dc0-2fd45995d059")
 		(property "Reference" "D13"
 			(at 55.88 137.1599 90)
@@ -14647,7 +14647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fcc75354-d220-40dd-9656-5002e2767c4c")
 		(property "Reference" "D14"
 			(at 69.85 137.1599 90)
